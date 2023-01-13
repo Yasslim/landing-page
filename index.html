@@ -6,8 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Bootswatch CSS 
+  <link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> 
+  -->
+<!-- Bootstrap CSS qui marche avec mon carousel à tester pour celle du bootswatch au dessus-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <title>Les Bar-Bar!</title>
 </head>
@@ -37,7 +40,134 @@
     <!-- Jumbotron -->
 
     <!-- Carrousel / Lionel-->
-
+    <!-- Debut du carousel-->
+    <div class="row">
+      <div class="col-sm-12 col-md-4 h" >
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/smoothie.jpg" class="d-block w-100" alt="image de thp">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Smoothie Yum Yum</h5>
+                <p>Le préféré des fans</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/smoothie2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Smoothie Yam Yam</h5>
+                <p>Le meilleur rapport qualité/prix</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/smoothie3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Smoothie Bof</h5>
+                <p>Faut avoir des gouts chelou</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    
+    <!-- Fin du carousel-->
+    
+      <div class="col-sm-12 col-md-4" >
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/cafe3.jpg" class="d-block w-100" alt="image de thp">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Café crème</h5>
+                <p>Le meilleur rapport qualité/prix</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cafe2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Café stival</h5>
+                <p>Faut avoir des gouts chelou</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cafe.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Café la voix</h5>
+                <p>Le préféré des fans</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+        <!-- Fin du 2ieme carou -->
+      <div class="col-sm-12 col-md-4 h" >
+        <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/boba2.jpg" class="d-block w-100" alt="image de thp">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Boba rihun</h5>
+                <p>Faut avoir des gouts chelou</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/boba.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Boba on s'amuse</h5>
+                <p>Le meilleur rapport qualité/prix</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/boba3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bob aux bobas</h5>
+                <p>Le préféré des fans</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Fin du 3ieme carou -->
     <!-- Carrousel -->
 
     <!-- Témoignages / Thomas-->
@@ -55,7 +185,8 @@
   </footer>
 
   <!-- Footer -->
-
+<!-- Option 1: Bootstrap Bundle JS with Popper J'en ai besoin pour le carousel je crois-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 
