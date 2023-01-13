@@ -1,3 +1,31 @@
+.couleur_theme_rose{
+    color: #fe6f7c !important;
+}
+
+.bordure_rose{
+    border-color:#FE6F7C !important;
+    border-width:3px !important;
+}
+
+.couleur_theme_bleu{
+
+    color: #12465A !important;
+}
+
+.bordure_bleu{
+    border-color:#12465A !important;
+    border-width:3px !important;
+}
+
+.couleur_theme_gris{
+    color: #B5C3CA !important;
+}
+
+.bordure_gris{
+    border-color:#B5C3CA !important;
+    border-width:3px !important;
+}
+
 @charset "UTF-8";/*!
  * Bootswatch v5.2.3 (https://bootswatch.com)
  * Theme: flatly
