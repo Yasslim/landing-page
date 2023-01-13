@@ -1,3 +1,46 @@
+
+header
+{
+	background-color: #12465A;
+}
+
+.accueil
+{
+	float: right;
+}
+
+.Nom
+{
+	text-align: center;
+	color: #FE6F7C;
+	padding-left: 100px;
+}
+
+a
+{
+	color: #FE6F7C;
+}
+
+a:hover
+{
+	color: #FE6F7C;
+}
+
+.dropdown-item
+{
+	color: yellow;
+}
+
+.dropdown-menu
+{
+	color: yellow;
+}
+
+
+
+
+
+=======
 .couleur_theme_rose{
     color: #fe6f7c !important;
 }
